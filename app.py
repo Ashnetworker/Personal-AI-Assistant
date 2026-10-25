@@ -3,7 +3,7 @@ from datetime import date
 from supabase import create_client
 SUPABASE_URL = st.secerets["SUPABASE_URL"]
 SUPABASE_KEY = st.secerets["SUPABASE_KEY"]
-supabase = create_client(SUPABASE_URL,SUPABASE_KEY)
+supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 st.set_page_config(
     page_title="Personal AI Assistant",
