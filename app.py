@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 from supabase import createclient
-SUPABASE_URL = st.secerets["SUPABASE_URL]
+SUPABASE_URL = st.secerets["SUPABASE_URL"]
 SUPABASE_KEY = st.secerets["SUPABASE_KEY"]
 supabase = create_client(SUPABASE_URL,SUPABASE_KEY)
 
